@@ -1,1 +1,1 @@
-hey this is demo for merge conflict.
+"hey this is the message for merge conflict from dev-1" 
