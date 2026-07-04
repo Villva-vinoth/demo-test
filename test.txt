@@ -1,1 +1,2 @@
 "hey this is the message for merge conflict from dev-1" 
+"This the test file from the dev-2" 
