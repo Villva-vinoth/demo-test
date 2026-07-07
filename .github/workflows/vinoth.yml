@@ -1,20 +1,22 @@
-name: Node.js ci
-on:
-    push:
-        branches:
-            -vinoth
-jobs:
-    build:
-        runs-on: ubuntu-latest
-            steps:
-                -name: Vinoth print 
-                run:echo " Vinoth"
-                
-                -name: mohan print
-                run:echo " mohan"
+name: Node.js CI
 
-                -name: sathish print
-                run:echo " sathish"
-                
-                -name: complete print
-                run:echo " completed successfully!"
+on:
+  push:
+    branches:
+      - vinoth
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Vinoth print
+        run: echo " Vinoth"
+
+      - name: mohan print
+        run: echo " mohan"
+
+      - name: sathish print
+        run: echo " sathish"
+
+      - name: complete print
+        run: echo " completed successfully!"
