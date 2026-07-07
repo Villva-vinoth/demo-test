@@ -29,7 +29,5 @@ jobs:
       - name: complete print
         run: echo " completed successfully!"
 
-      - name: "start pana poren"
-        run: npm start
       - name: deploy
         run: echo " deployment completed successfully!"
